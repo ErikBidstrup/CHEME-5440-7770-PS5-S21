@@ -24,7 +24,7 @@ gr(show = true)  # Use the gr backend for plotting and show plots
 β = 7/3
 
 # -------------------------- Lorenz Model -------------------------------------
-# du: Diffrerential equations, [dX/dt, dY/dt, dZ/dt]
+# du: Differential equations, [dX/dt, dY/dt, dZ/dt]
 # u: Time-dependent variables, [X, Y, Z]; u[1] = xX; u[2] = Y; u[3] = Z
 # p: Additional model parameters (none in this example)
 # t: time 
@@ -63,6 +63,4 @@ display(plt3)
 #Save the three plots as PNG files
 savefig(plt1, "./plot1.png")    
 savefig(plt2, "./plot2.png")  
-savefig(plt3, "./plot3.png")    
-
-
+savefig(plt3, "./plot3.png")
